@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athena</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+<script src="script.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+
+<body>
+
+    <div class="result-area">
+
+        <div class="res-body">
+
+            <img src="imgs/right-arrow-w.png" class="right-a">
+
+            <a href="#"> <img src="imgs/chart-histogram.png" class="financial"></a>
+            <img src="imgs/time-past.png" class="history">
+            <img src="imgs/usd-circle.png" class="dollar">
+            <img src="imgs/comment-question.png" class="liability">
+            <img src="imgs/money-bill-wave.png" class="loans">
+            <img src="imgs/badge-check.png" class="verify">
+
+        </div>
+
+        <div class="res-summary">
+
+            <h1 class="dashboard-txt">Dashboard Overview</h1>
+
+            <nav>
+                <ul>
+
+                    <div class="circular-bar-accounts">
+                        <a href="#" class="active-accounts">Account</a>
+                        <a href="#" class="username-accounts" style="text-transform:none;">Username</a>
+                    </div>
+
+                </ul>
+
+                <img src="imgs/user.png" class="user">
+
+            </nav>
+
+            <div class="analyst-cont">
+                <div class="card">
+                    <div class="heading">
+                        <img src="imgs/interest-rate.png" class="dashboard-img">
+                        <h1 class="borrow-txt">Borrower</h1>
+
+                    </div>
+                    <div class="text">
+                        Amount<input type="text" placeholder="Maximum Cash 15k">
+
+                    </div>
+                    <div class="collateral">
+                        Collateral
+                    </div>
+                    <div class="but"> <button class="the-button"> <img src="imgs/ethereum.png"
+                                class="eth-lend"></button></div>
+                                <a href="#" class="find-lenderers" style="color:#0a0a0a;">
+                                <img src="imgs/right-a.png" class="right-arrow"></a>
+
+                </div>
+                <div class="card">
+                    <div class="heading">
+                        <img src="imgs/interest-rate.png" class="dashboard-img">
+                        <h1 class="borrow-txt">Lender</h1>
+
+                    </div>
+                    <div class="text">
+                        Amount<input type="text" placeholder="Maximum Cash 15k">
+
+                    </div>
+                    <div class="collateral">
+                        Interest
+                    </div>
+                                <div class="meter">
+                                    <div class="slider">
+                                        <input type = "range" min="0" max="15" onchange="rangevalue.value=value"/>
+                                          <output id="rangevalue">15</output>
+                                        </div>
+                                       
+                                </div>
+                                <a href="#" class="find-lenderers" style="color:#0a0a0a;">
+                                    <img src="imgs/right-a.png" class="right-arrow-lender"></a>
+    
+                </div>
+
+
+            </div>
+            <div class="gcard">
+                <div class="graphs"></div>
+                <div class="graphs"></div>
+                <div class="graphs"></div>
+            </div>
+
+            <div class="analyst-cont" style="position:relative;margin-top:0.5%; " >
+                <div class="card">
+                  
+                </div>
+                <div class="card">
+             
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
