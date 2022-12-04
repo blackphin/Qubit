@@ -1,6 +1,9 @@
 # Athena
 The only Informal Secure P2P Credit Service to ever exist.
 
+![Athena](https://user-images.githubusercontent.com/44195921/205472904-3aa6b4a0-18cf-4007-906d-d8d05167139e.jpg)
+
+
 # Problem Statement & Proposed Solution:
 In the Indian Market, people love negotiating, so why not let the people negotiate while acquiring informal credit? These P2P Informal Lending Transactions carry a huge risk, we plan to curb this problem by providing a platform that ensures the same level of security as formal credit but with P2P lending. We have adopted the concept of Credit Score and applied it to the Web3 ecosystem by providing a very complicated and thorough financial check of both the lender and the borrower so that we can give both parties peace of mind that their coins are safe. As the web3 revolution picks pace we plan on targeting the common users who need to be educated about the secure ecosystem of ether and how it can change their life for good.
 We have multiple features to keep the users engaged with our platform:
@@ -58,5 +61,13 @@ We offer our Platform as a service (PaaS) for users to engage in a P2P Informal 
 1. Since our backend team was focused on python we found integrating a lot of web3 SDKs and frameworks quite challenging.
 2. Due to the lack of documentation of various APIs in Python, we had to spend quite a lot of time in trial and error to make things work and implement the modules in a proper manner.
 3. The scale of our idea is too big and thus being able to complete such a passionate project with a genuine idea at its core within the given time limits was very challenging.
-
 # Images of The Project:
+![Screenshot (4)](https://user-images.githubusercontent.com/44195921/205472864-6020a998-efdd-42d7-8eb0-0cbccd21ed4c.png)
+![Screenshot (5)](https://user-images.githubusercontent.com/44195921/205472868-f035181e-9234-4ac9-9b91-44539fce9168.png)
+![Screenshot (9)](https://user-images.githubusercontent.com/44195921/205472891-b646f020-cdd9-4e21-be9a-72b38128eb8c.png)
+![Screenshot (7)](https://user-images.githubusercontent.com/44195921/205472871-92ae6ba8-4cd4-4db6-be16-4dde0b7365e4.png)
+![Screenshot (6)](https://user-images.githubusercontent.com/44195921/205472890-13efd631-6e7e-4e38-b3e9-15d97fce549a.png)
+
+
+
+
