@@ -1,5 +1,6 @@
 from etherscan import Etherscan
 from web3 import Web3
+
 from fastapi import FastAPI
 
 app = FastAPI()
@@ -34,27 +35,27 @@ def debit_score(comma_input):
     credit_transaction_list = []
     debit_transaction_list = []
     for transaction in transactions:
-        if int(transaction["isError"]) == 0:
-            if transaction["to"] == transaction["from"]:
-                ...
+        if transaction["to"] == transaction["from"]:
+            ...
 
-            elif (transaction["from"]) == wallet_address.lower():
-                debit_transaction_list.append(
-                    int(w3.fromWei(int(transaction["value"]), "ether"))
-                )
-
-            else:
-                credit_transaction_list.append(
-                    int(w3.fromWei(int(transaction["value"]), "ether"))
-                )
+        elif (transaction["from"]) == wallet_address.lower():
+            debit_transaction_list.append(
+                int(w3.fromWei(int(transaction["value"]), "ether"))
+            )
+        else:
+            credit_transaction_list.append(
+                int(w3.fromWei(int(transaction["value"]), "ether"))
+            )
     total_assets = w3.fromWei(w3.eth.get_balance(wallet_address), "ether")
     total_liabilities = athena_liabilities
-
     total_recent_assets = sum(credit_transaction_list) - sum(debit_transaction_list)
     total_recent_liabilities = athena_liabilities * interest_rate / 1200
 
     score1 = (total_assets * 100) / (total_assets + total_liabilities)
-    score2 = (total_recent_assets * 100) / (
-        total_recent_assets + total_recent_liabilities
-    )
-    return (score1 + score2) / 2
+    try:
+        score2 = (total_recent_assets * 100) / (
+            total_recent_assets + total_recent_liabilities
+        )
+    except:
+        score2 = 100
+    return {"debit_score": (int(score1) + int(score2)) / 2}
