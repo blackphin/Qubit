@@ -1,71 +1,70 @@
-# Athena
-The only Informal Secure P2P Credit Service to ever exist.
+# Getting Started with Create React App
 
-![Athena](https://user-images.githubusercontent.com/44195921/205472904-3aa6b4a0-18cf-4007-906d-d8d05167139e.jpg)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-# Problem Statement & Proposed Solution:
-In the Indian Market, people love negotiating, so why not let the people negotiate while acquiring informal credit? These P2P Informal Lending Transactions carry a huge risk, we plan to curb this problem by providing a platform that ensures the same level of security as formal credit but with P2P lending. We have adopted the concept of Credit Score and applied it to the Web3 ecosystem by providing a very complicated and thorough financial check of both the lender and the borrower so that we can give both parties peace of mind that their coins are safe. As the web3 revolution picks pace we plan on targeting the common users who need to be educated about the secure ecosystem of ether and how it can change their life for good.
-We have multiple features to keep the users engaged with our platform:
+In the project directory, you can run:
 
-1. Easy Onboarding Process:
-    1. Two-Click Onboarding to enhance User Experience.
-    2. Users can easily sign up with their username and password.
-    3. Users can also sign up with their World ID for Sybil Resistance.
+### `npm start`
 
-2. Lendors Verification:
-    1. Users can verify their identity without uploading any Government ID and hence provide anonymity to our users.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-3. Interest Negotiation:
-    1. Borrowers and Lendors can negotiate the interest rates of the Credit Transaction.
-    2. Provides more freedom of choice for both the parties
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-4. Debit Score Verification:
-    1. We provide verfication for all of our users by using various formulations on the user's current as well as historical financial holdings.
-    2. Users can verify their Debit Score by syncing their wallets.
+### `npm test`
 
-# TL;DR:
-We offer our Platform as a service (PaaS) for users to engage in a P2P Informal Credit Transaction with verified Lendor and Borrower accounts and give them back their right to negotiate.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-# Prize Tracks We Applied For:
-1. World ID
-2. Infura
-3. Polygon
-4. Push Protocol
+### `npm run build`
 
-# Development Flow:
-1. Account Creation:
-    We used **World ID**
-2. Smart Contracts:
-    We used **Solidity and Polygon**
-3. Balance and Transaction History:
-    We used **Fast APIs, web3.py & EtherScan**
-4. Chat & Notifications:
-    We used **Push Protocol**
-6. Deployment:
-    We used **Infura & Polygon**
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-# Tech Stack We Used:
-1. Python
-2. Solidity
-3. JS
-4. React
-5. Fast APIs
-6. World ID
-7. Push Protocol
-8. Polygon
-9. Infura
-10. Etherscan
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-# Challenges We Ran Into:
-1. Since our backend team was focused on python we found integrating a lot of web3 SDKs and frameworks quite challenging.
-2. Due to the lack of documentation of various APIs in Python, we had to spend quite a lot of time in trial and error to make things work and implement the modules in a proper manner.
-3. The scale of our idea is too big and thus being able to complete such a passionate project with a genuine idea at its core within the given time limits was very challenging.
-# Images of The Project:
-![Screenshot (4)](https://user-images.githubusercontent.com/44195921/205472864-6020a998-efdd-42d7-8eb0-0cbccd21ed4c.png)
-![Screenshot (5)](https://user-images.githubusercontent.com/44195921/205472868-f035181e-9234-4ac9-9b91-44539fce9168.png)
-![Screenshot (9)](https://user-images.githubusercontent.com/44195921/205472891-b646f020-cdd9-4e21-be9a-72b38128eb8c.png)
-![Screenshot (7)](https://user-images.githubusercontent.com/44195921/205472871-92ae6ba8-4cd4-4db6-be16-4dde0b7365e4.png)
-![Screenshot (6)](https://user-images.githubusercontent.com/44195921/205472890-13efd631-6e7e-4e38-b3e9-15d97fce549a.png)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-![0002](https://user-images.githubusercontent.com/44195921/205472961-011c1d24-3830-4cb5-8277-f9d89ff4f0c7.gif)
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
