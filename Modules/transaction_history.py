@@ -26,7 +26,7 @@ async def get_balance(wallet_address):
 @app.get("/get_transactions/{comma_inputs}")
 async def get_transactions(comma_inputs):
     wallet_address, block_size, no_of_transactions = map(
-        str, list(comma_inputs.split("_"))
+        str, list(comma_inputs.split(","))
     )
     no_of_transactions = int(no_of_transactions)
     current_block_value = w3.eth.blockNumber
