@@ -68,8 +68,4 @@ We offer our Platform as a service (PaaS) for users to engage in a P2P Informal 
 ![Screenshot (7)](https://user-images.githubusercontent.com/44195921/205472871-92ae6ba8-4cd4-4db6-be16-4dde0b7365e4.png)
 ![Screenshot (6)](https://user-images.githubusercontent.com/44195921/205472890-13efd631-6e7e-4e38-b3e9-15d97fce549a.png)
 
-
-
-![Uploading 0002.gif…]()
-
-
+![0002](https://user-images.githubusercontent.com/44195921/205472961-011c1d24-3830-4cb5-8277-f9d89ff4f0c7.gif)
