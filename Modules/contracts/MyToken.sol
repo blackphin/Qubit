@@ -11,7 +11,7 @@ contract MyToken is Initializable, ERC721Upgradeable, OwnableUpgradeable {
         _disableInitializers();
     }
 
-    function initialize() initializer public {
+    function initialize() public initializer {
         __ERC721_init("MyToken", "MTK");
         __Ownable_init();
     }
