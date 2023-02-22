@@ -4,7 +4,7 @@ The only Informal Secure P2P Credit Service to ever exist.
 ![Athena](https://user-images.githubusercontent.com/44195921/205472904-3aa6b4a0-18cf-4007-906d-d8d05167139e.jpg)
 
 
-# Problem Statement & Proposed Solution:
+# Problem Statement & Proposed Solution
 In the Indian Market, people love negotiating, so why not let the people negotiate while acquiring informal credit? These P2P Informal Lending Transactions carry a huge risk, we plan to curb this problem by providing a platform that ensures the same level of security as formal credit but with P2P lending. We have adopted the concept of Credit Score and applied it to the Web3 ecosystem by providing a very complicated and thorough financial check of both the lender and the borrower so that we can give both parties peace of mind that their coins are safe. As the web3 revolution picks pace we plan on targeting the common users who need to be educated about the secure ecosystem of ether and how it can change their life for good.
 We have multiple features to keep the users engaged with our platform:
 
